@@ -17,3 +17,26 @@
   - we instead use the reflection of overhead lamp on each bead for threshholding, as the beads are spherical and the lamp is also round the center of this threshholding contour and the center of the bead are aproximately same
   - just using these points we write a the code 
   - please find the appropiately commented code in [track.py](track.py)
+
+# Input and result
+
+- The original video 
+
+<video audio="false" controls autoplay loop src="dark_bg.mp4" title="Input"></video>
+
+- The output
+
+<video audio="false" controls autoplay loop src="gray_0.mp4" title="Output"></video>
+
+- The countour sizes were observed as follows
+- this distribution hepls us determine the contour cutoff length
+![Contour size distribution](contour_size_dist.png)
+
+- Output can be found at [pickled output data in npy format](bead_tracks.npy)
+- which can be loaded as follows
+
+
+```python
+tracks_array = np.load('bead_tracks.npy',allow_pickle=True)
+print(np.shape(tracks_array))
+```
