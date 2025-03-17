@@ -20,13 +20,14 @@
 
 # Input and result
 
-- The original video 
+- The [original video](dark_bg.mp4) (the below file is for representation purpose only) 
 
-<video audio="false" controls autoplay loop src="dark_bg.mp4" title="Input"></video>
+https://github.com/user-attachments/assets/e4290d29-91c4-4932-ae51-097a7e9e1f28
 
-- The output
+- The [output video](gray_0.mp4) (the below file is for representation purpose only)
 
-<video audio="false" controls autoplay loop src="gray_0.mp4" title="Output"></video>
+
+https://github.com/user-attachments/assets/4bf594ed-e06b-4df5-8a48-d4b9fee978fe
 
 - The countour sizes were observed as follows
 - this distribution hepls us determine the contour cutoff length
