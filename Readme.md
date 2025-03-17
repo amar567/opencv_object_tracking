@@ -4,7 +4,7 @@
 - As this is ongoing work not much about it can be revealed except experiment required programatically tracking beads during the course of the experiment.
 - Shoutout to G.P. Hrishikesh who was kind enough to discuss his exciting work with me.
 
-# Approach at solving this problem
+# Approach for solving this problem
 
   ### Some relevant observations
   - Red colored beads in an petri dish are moving under influence of certain forces.
@@ -18,7 +18,7 @@
   - just using these points we write a the code 
   - please find the appropiately commented code in [track.py](track.py)
 
-# Input and result
+# Input and the Result
 
 - The [original video](dark_bg.mp4) (the below file is for representation purpose only) 
 
